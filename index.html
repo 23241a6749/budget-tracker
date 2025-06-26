@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Budget Tracker</h1>
+
+    <div class="input-section">
+      <input type="text" id="category" placeholder="Expense Category" />
+      <input type="number" id="amount" placeholder="Amount" />
+      <button id="addExpense">Add Expense</button>
+    </div>
+
+    <div class="chart-section">
+      <canvas id="expenseChart" width="400" height="400"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
